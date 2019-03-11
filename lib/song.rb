@@ -12,6 +12,6 @@ class Song
     @@all 
   end 
   def artist_name 
-    binding.pry
+    self.name = artist 
   end 
 end 
