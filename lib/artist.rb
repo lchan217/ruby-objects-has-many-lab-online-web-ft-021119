@@ -19,4 +19,7 @@ class Artist
     new.artist = self
     @songs << new 
   end 
+  def self.song_count 
+    @songs.count 
+  end 
 end
