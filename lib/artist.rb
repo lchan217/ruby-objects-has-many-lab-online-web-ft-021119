@@ -20,6 +20,6 @@ class Artist
     @songs << new 
   end 
   def self.song_count 
-    binding.pry
+    Song.all.count
   end 
 end
